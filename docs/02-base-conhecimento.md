@@ -6,9 +6,9 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
+| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores, um atendimento continuo para cada usuário |
+| `perfil_investidor.json` | JSON | Personalizar exemplos de demonstração com explicações para cada caso e duvida do usuário |
+| `produtos_financeiros.json` | JSON | Dar exemplos de produtos adequados ao perfil com explicações de fácil entendimento|
 | `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
 
 > [!TIP]
@@ -29,7 +29,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+[ Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
